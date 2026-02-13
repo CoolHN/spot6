@@ -39,7 +39,7 @@ You can also run without a token (limited/unauthenticated behavior depends on Sp
 
 ## Build an `.ipa` (on macOS)
 
-Use the helper script from the repo root:
+Use the helper script (you can run it from any current directory):
 
 ```bash
 ./build_ipa.sh
@@ -50,4 +50,6 @@ Output:
 - `build/Spot6.ipa`
 
 This requires macOS + Xcode (`xcodebuild`), and valid iOS signing configured in Xcode.
+
+`build_ipa.sh` is written for legacy bash on macOS 10.9 (Xcode 5.1.1 era) and resolves paths relative to the script location.
 

@@ -1,11 +1,12 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -euo pipefail
 
-PROJECT_PATH="Spot6/Spot6.xcodeproj"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_PATH="$SCRIPT_DIR/Spot6/Spot6.xcodeproj"
 TARGET_NAME="Spot6"
 CONFIGURATION="Release"
 SDK="iphoneos"
-BUILD_DIR="build"
+BUILD_DIR="$SCRIPT_DIR/build"
 APP_DIR="$BUILD_DIR/${CONFIGURATION}-iphoneos/${TARGET_NAME}.app"
 PAYLOAD_DIR="$BUILD_DIR/Payload"
 IPA_PATH="$BUILD_DIR/${TARGET_NAME}.ipa"
@@ -15,17 +16,24 @@ if ! command -v xcodebuild >/dev/null 2>&1; then
   exit 1
 fi
 
+if ! command -v zip >/dev/null 2>&1; then
+  echo "error: zip not found. Install command line tools." >&2
+  exit 1
+fi
+
 if [ ! -d "$PROJECT_PATH" ]; then
   echo "error: project not found at $PROJECT_PATH" >&2
   exit 1
 fi
 
 echo "==> Building $TARGET_NAME ($CONFIGURATION, $SDK)"
+cd "$SCRIPT_DIR"
 xcodebuild \
   -project "$PROJECT_PATH" \
   -target "$TARGET_NAME" \
   -configuration "$CONFIGURATION" \
   -sdk "$SDK" \
+  SYMROOT="$BUILD_DIR" \
   clean build
 
 if [ ! -d "$APP_DIR" ]; then
