@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A100000B17A0000000000001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A100000117A0000000000001 /* main.m */; };
+		A100000C17A0000000000001 /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A100000317A0000000000001 /* SPAppDelegate.m */; };
+		A100000D17A0000000000001 /* SPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A100000517A0000000000001 /* SPMainViewController.m */; };
+		A100000E17A0000000000001 /* SPTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A100000717A0000000000001 /* SPTrack.m */; };
+		A100000F17A0000000000001 /* SPSpotifyClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A100000917A0000000000001 /* SPSpotifyClient.m */; };
+		A100001017A0000000000001 /* SPYouTubeFallbackClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A100001117A0000000000001 /* SPYouTubeFallbackClient.m */; };
+		A100001117A0000000000002 /* SPWebFallbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A100001317A0000000000001 /* SPWebFallbackViewController.m */; };
+		A100001217A0000000000001 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A100001517A0000000000001 /* UIKit.framework */; };
+		A100001317A0000000000001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A100001617A0000000000001 /* Foundation.framework */; };
+		A100001417A0000000000001 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A100001717A0000000000001 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A100000117A0000000000001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A100000217A0000000000001 /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		A100000317A0000000000001 /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		A100000417A0000000000001 /* SPMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPMainViewController.h; sourceTree = "<group>"; };
+		A100000517A0000000000001 /* SPMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPMainViewController.m; sourceTree = "<group>"; };
+		A100000617A0000000000001 /* SPTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTrack.h; sourceTree = "<group>"; };
+		A100000717A0000000000001 /* SPTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTrack.m; sourceTree = "<group>"; };
+		A100000817A0000000000001 /* SPSpotifyClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPSpotifyClient.h; sourceTree = "<group>"; };
+		A100000917A0000000000001 /* SPSpotifyClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPSpotifyClient.m; sourceTree = "<group>"; };
+		A100001017A0000000000001 /* SPYouTubeFallbackClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYouTubeFallbackClient.h; sourceTree = "<group>"; };
+		A100001117A0000000000001 /* SPYouTubeFallbackClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYouTubeFallbackClient.m; sourceTree = "<group>"; };
+		A100001217A0000000000001 /* SPWebFallbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPWebFallbackViewController.h; sourceTree = "<group>"; };
+		A100001317A0000000000001 /* SPWebFallbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPWebFallbackViewController.m; sourceTree = "<group>"; };
+		A100001417A0000000000001 /* Spot6-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spot6-Info.plist"; sourceTree = "<group>"; };
+		A100001817A0000000000001 /* Spot6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Spot6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A100001517A0000000000001 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A100001617A0000000000001 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A100001717A0000000000001 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A100001917A0000000000001 /* Spot6-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spot6-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A100001A17A0000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100001217A0000000000001 /* UIKit.framework in Frameworks */,
+				A100001317A0000000000001 /* Foundation.framework in Frameworks */,
+				A100001417A0000000000001 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A100001B17A0000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A100001C17A0000000000001 /* Spot6 */,
+				A100001D17A0000000000001 /* Frameworks */,
+				A100001E17A0000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A100001C17A0000000000001 /* Spot6 */ = {
+			isa = PBXGroup;
+			children = (
+				A100000117A0000000000001 /* main.m */,
+				A100000217A0000000000001 /* SPAppDelegate.h */,
+				A100000317A0000000000001 /* SPAppDelegate.m */,
+				A100000417A0000000000001 /* SPMainViewController.h */,
+				A100000517A0000000000001 /* SPMainViewController.m */,
+				A100000617A0000000000001 /* SPTrack.h */,
+				A100000717A0000000000001 /* SPTrack.m */,
+				A100000817A0000000000001 /* SPSpotifyClient.h */,
+				A100000917A0000000000001 /* SPSpotifyClient.m */,
+				A100001017A0000000000001 /* SPYouTubeFallbackClient.h */,
+				A100001117A0000000000001 /* SPYouTubeFallbackClient.m */,
+				A100001217A0000000000001 /* SPWebFallbackViewController.h */,
+				A100001317A0000000000001 /* SPWebFallbackViewController.m */,
+				A100001417A0000000000001 /* Spot6-Info.plist */,
+				A100001917A0000000000001 /* Spot6-Prefix.pch */,
+			);
+			path = Spot6;
+			sourceTree = "<group>";
+		};
+		A100001D17A0000000000001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A100001617A0000000000001 /* Foundation.framework */,
+				A100001717A0000000000001 /* MediaPlayer.framework */,
+				A100001517A0000000000001 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A100001E17A0000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A100001817A0000000000001 /* Spot6.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A100001F17A0000000000001 /* Spot6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A100002217A0000000000001 /* Build configuration list for PBXNativeTarget "Spot6" */;
+			buildPhases = (
+				A100002017A0000000000001 /* Sources */,
+				A100001A17A0000000000001 /* Frameworks */,
+				A100002117A0000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spot6;
+			productName = Spot6;
+			productReference = A100001817A0000000000001 /* Spot6.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A100002317A0000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A100002617A0000000000001 /* Build configuration list for PBXProject "Spot6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A100001B17A0000000000001;
+			productRefGroup = A100001E17A0000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A100001F17A0000000000001 /* Spot6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A100002117A0000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A100002017A0000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000B17A0000000000001 /* main.m in Sources */,
+				A100000C17A0000000000001 /* SPAppDelegate.m in Sources */,
+				A100000D17A0000000000001 /* SPMainViewController.m in Sources */,
+				A100000E17A0000000000001 /* SPTrack.m in Sources */,
+				A100000F17A0000000000001 /* SPSpotifyClient.m in Sources */,
+				A100001017A0000000000001 /* SPYouTubeFallbackClient.m in Sources */,
+				A100001117A0000000000002 /* SPWebFallbackViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A100002417A0000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "Spot6/Spot6-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A100002517A0000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "Spot6/Spot6-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A100002717A0000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Spot6/Spot6-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.spot6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A100002817A0000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Spot6/Spot6-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.spot6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A100002217A0000000000001 /* Build configuration list for PBXNativeTarget "Spot6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100002717A0000000000001 /* Debug */,
+				A100002817A0000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A100002617A0000000000001 /* Build configuration list for PBXProject "Spot6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100002417A0000000000001 /* Debug */,
+				A100002517A0000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A100002317A0000000000001 /* Project object */;
+}
